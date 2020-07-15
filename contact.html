@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <style>
+        li{
+            margin: 20px;
+            list-style-type: none;
+            margin-left: 1100px;
+            border: 1px solid grey;
+            padding:5px;
+            height: 20px;
+            align-items: center;
+            text-align: center;
+            border-radius: 10px;
+        }
+        li:hover{
+            background-color:grey;
+            transition: 1s;
+        }
+    </style>
+    <nav>
+        <div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h1>My contact details</h1><br>
+    <p>+82 10 4623 0444</p>
+    <p>South Korea, Seoul, Gwangjin-gu, Gunja-dong 346-5</p>
+    <p>isroil5409@gmail.com</p>
+    <hr>
+    <form action="mailto:isroil5409@gmail.com" method="post" enctype="text/plain">
+        <label for="get-name">Your Name:</label>
+        <input type="text" name="Name" value=""><br>
+        <p><label>Your Email:</label>
+        <input type="email" name="Email"><br>
+        <p><label>Your Message:</label></p><br>
+        <textarea name="Message" id="" cols="60" rows="10"></textarea><br>
+        <label>Do you want to sign up to the email list?</label>
+        <input type="checkbox" name="email list">
+        <input type="submit" name="">
+    </form>
+</body>
+</html>
